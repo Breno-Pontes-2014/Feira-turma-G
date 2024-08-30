@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'feira';
-    src: url('/FONTE/NewAmsterdam-Regular.ttf') format('opentype');
+    src: url('..FONTE/NewAmsterdam-Regular.ttf') format('opentype');
     font-weight: normal;
 }
 
