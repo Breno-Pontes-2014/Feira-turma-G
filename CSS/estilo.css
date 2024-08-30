@@ -10,17 +10,16 @@
 
 :root {
     --cor0: #F2F2F2;
-    --cor1: #D92B2B;
-    --cor2: #F20505;
-    --cor3: #067302;
-    --cor4: #09A603;
-    --cor5: #E9C259;
+    --cor1: #9bcdd4;
+    --cor2: #f2050508;
+    --cor3: #096606;
+    --cor4: #09a6036e;
+    --cor5: #2274b15e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-feira: 'Android', cursive;
 }
-
 * {
     margin: 0px;
     padding: 0px;
