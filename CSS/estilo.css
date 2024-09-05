@@ -143,6 +143,8 @@ main a:hover {
 }
 
 main img {
+    width: 500px;
+    height: 500px;
     border-radius: 10px;
     width: 50%;
 }
