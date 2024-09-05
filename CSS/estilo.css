@@ -145,7 +145,8 @@ main a:hover {
 }
 
 main img {
-    width: 100%;
+    border-radius: 10px;
+    width: 50%;
 }
 
 main img.pequena {
