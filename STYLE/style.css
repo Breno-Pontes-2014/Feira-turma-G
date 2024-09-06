@@ -7,16 +7,16 @@
 }
 
 :root {
-    --cor0: #F2F2F2;
-    --cor1: #9bcdd4;
-    --cor2: #f2050508;
-    --cor3: #096606;
-    --cor4: #09a6036e;
-    --cor5: #2274b15e;
+    --color0: #F2F2F2;
+    --color1: #9bcdd4;
+    --color2: #f2050508;
+    --color3: #096606;
+    --color4: #09a6036e;
+    --color5: #2274b15e;
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Sevillana', cursive;
-    --fonte-fair: 'Android', cursive;
+    --default-font: Arial, Verdana, Helvetica, sans-serif;
+    --highlighted-font: 'Sevillana', cursive;
+    --fair-font: 'fair', cursive;
 }
 
 * {
@@ -26,11 +26,11 @@
 
 body {
     background-color: var(--cor0);
-    font-family: var(--fonte-padrao);
+    font-family: var(--default-font);
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--color3), var(--color5));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -38,7 +38,7 @@ header {
 
 header > h1 {
     color: white;
-    font-family: var(--fonte-destaque);
+    font-family: var(--highlighted-font);
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
@@ -46,7 +46,7 @@ header > h1 {
 }
 
 header > p {
-    font-family: var(--fonte-padrao);
+    font-family: var(--default-font);
     font-size: 1.2em;
     color: white;
     max-width: 600px;
@@ -58,7 +58,7 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor5);
+    background-color: var(--color5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
     text-align: center;
@@ -68,7 +68,7 @@ nav {
 nav > button{
     border-radius:5px;
     color:white;
-    background-color: var(--cor1);
+    background-color: var(--color1);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
     text-align: center;
@@ -85,7 +85,7 @@ nav > button > a:hover {
     border-radius:5px;
     padding: 10px;
     color: white;
-    background-color:var(--cor5);
+    background-color:var(--color5);
 }
 
 main {
@@ -112,7 +112,7 @@ main h2 {
     color: var(--cor4);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, var(--color1), transparent);
     text-indent: 8px;
 }
 
@@ -125,7 +125,7 @@ main p {
 }
 
 main strong {
-    color: var(--cor4);
+    color: var(--color4);
     font-weight: bolder;
 }
 
@@ -133,13 +133,13 @@ main a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
-    background-color: var(--cor1);
+    background-color: var(--color1);
     padding: 2px 6px;
 }
 
 main a:hover {
     text-decoration: underline;
-    color: var(--cor3);
+    color: var(--color3);
 }
 
 main img {
@@ -150,14 +150,14 @@ main img {
 }
 
 aside {
-    background-color: var(--cor1);
+    background-color: var(--color1);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
 aside > h3 {
-    background-color: var(--cor4);
+    background-color: var(--color4);
     color: white;
     padding: 10px;
     margin: -10px -10px 0px -10px;
@@ -172,7 +172,7 @@ aside > ul {
 
 footer {
     border-radius: 5px;
-    background-color: var(--cor5);
+    background-color: var(--color5);
     color: white;
     text-align: center;
     font-size: 0.8em;
@@ -180,21 +180,25 @@ footer {
 }
 
 footer a:hover {
-    color: var(--cor3);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--color3);
 }
-footer a:active{
-    text-decoration:underline;
+footer > button > a:active{
+    text-decoration: underline;
 }
 footer > button{
-    border-radius:5px;
-    color:white;
-    background-color: var(--cor1);
+    border-radius: 5px;
+    color: white;
+    background-color: var(--color1);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
     text-align: center;
 }
 
 footer > button > a {
+    margin: 2px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -202,8 +206,8 @@ footer > button > a {
 }
 
 footer > button > a:hover {
-    border-radius:5px;
+    border-radius: 5px;
     padding: 10px;
     color: white;
-    background-color:var(--cor5);
+    background-color: var(--color5);
 }
