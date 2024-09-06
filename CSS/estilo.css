@@ -143,26 +143,9 @@ main a:hover {
 }
 
 main img {
-    width: 500px;
-    height: 500px;
+    width: 25%;
     border-radius: 10px;
     width: 50%;
-}
-
-div.video {
-    background-color: var(--cor5);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 58%;
-    position: relative;
-}
-
-div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
 }
 
 aside {
@@ -187,6 +170,7 @@ aside > ul {
 }
 
 footer {
+    border-radius: 5px;
     background-color: var(--cor5);
     color: white;
     text-align: center;
