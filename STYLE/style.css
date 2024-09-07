@@ -109,10 +109,10 @@ main h1 {
 
 main h2 {
     font-family: var(--fonte-fair);
-    color: var(--cor4);
+    color: var(--color3);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--color1), transparent);
+    background-image: linear-gradient(to right, var(--color5), transparent);
     text-indent: 8px;
 }
 
