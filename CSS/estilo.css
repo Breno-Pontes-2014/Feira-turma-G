@@ -191,6 +191,7 @@ footer {
 }
 
 footer > p > button{
+    transition-duration: .5s;
     border-radius:5px;
     background-color: var(--cor5);
     padding: 5px;
@@ -222,7 +223,6 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
 }
 
 footer > p > button > a:hover {
