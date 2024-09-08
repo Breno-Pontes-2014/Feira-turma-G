@@ -213,3 +213,9 @@ footer > button > a:hover {
     color: white;
     background-color: var(--color5);
 }
+
+footer > p{
+    font-weight: bold;
+    margin: 5px;
+    font-size: 10px;
+}
