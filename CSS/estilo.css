@@ -108,6 +108,7 @@ main h1 {
 }
 
 main h2 {
+    margin: 5px;
     font-family: var(--fonte-feira);
     color: var(--cor3);
     font-size: 1.3em;

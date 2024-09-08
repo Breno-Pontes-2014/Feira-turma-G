@@ -108,6 +108,7 @@ main h1 {
 }
 
 main h2 {
+    margin: 5px;
     font-family: var(--fair-font);
     color: var(--color3);
     font-size: 1.3em;
