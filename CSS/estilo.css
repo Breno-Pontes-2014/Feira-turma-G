@@ -206,7 +206,7 @@ footer {
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
-    background-color: var(--color5);
+    background-color: var(--cor5);
     color: white;
     text-align: center;
     font-size: 0.8em;
@@ -217,7 +217,7 @@ footer > p > button > a:hover {
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
-    color: var(--color3);
+    color: var(--cor3);
 }
 footer > button > p > a:active{
     text-decoration: dotted;
