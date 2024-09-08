@@ -102,13 +102,13 @@ main {
 
 main h1 {
     color: var(--color5);
-    font-family: var(--fonte-fair);
+    font-family: var(--fair-font);
     font-weight: normal;
     font-size: 1.8em;
 }
 
 main h2 {
-    font-family: var(--fonte-fair);
+    font-family: var(--fair-font);
     color: var(--color3);
     font-size: 1.3em;
     font-weight: normal;
@@ -188,7 +188,7 @@ footer a:hover {
     color: var(--color3);
 }
 footer > button > a:active{
-    text-decoration: underline;
+    text-decoration: dotted;
 }
 footer > button{
     border-radius: 5px;
@@ -200,18 +200,19 @@ footer > button{
 }
 
 footer > button > a {
+    text-decoration: none;
     margin: 2px;
     color: white;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
+
 }
 
 footer > button > a:hover {
     border-radius: 5px;
     padding: 10px;
-    color: white;
-    background-color: var(--color5);
+    color: var(--color5);
 }
 
 footer > p{
