@@ -218,8 +218,8 @@ footer {
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
-    background-color: var(--color5);
-    color: var(--color3);
+    background-color: var(--cor5);
+    color: var(--cor3);
     font-weight:bold;
     text-align: center;
     font-size: 0.8em;
