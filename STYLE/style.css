@@ -216,7 +216,8 @@ footer > button > a:hover {
 }
 
 footer > p{
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: large;
     margin: 5px;
     font-size: 10px;
 }
