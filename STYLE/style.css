@@ -66,6 +66,8 @@ nav {
 }
 
 nav > button{
+    margin: 5px;
+    padding: 5px;
     border-radius:5px;
     color:white;
     background-color: var(--color1);
@@ -75,6 +77,8 @@ nav > button{
 }
 
 nav > button > a {
+    margin: 5px;
+    padding: 5px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -82,7 +86,6 @@ nav > button > a {
 }
 
 nav > button > a:hover {
-    border-radius:5px;
     padding: 10px;
     color: white;
     background-color:var(--color5);
