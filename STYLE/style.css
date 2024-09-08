@@ -25,7 +25,7 @@
 }
 
 body {
-    background-color: var(--cor0);
+    background-color: var(--color0);
     font-family: var(--default-font);
 }
 
@@ -138,7 +138,7 @@ main strong {
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
+    color: var(--color5);
     background-color: var(--color1);
     padding: 2px 6px;
 }
