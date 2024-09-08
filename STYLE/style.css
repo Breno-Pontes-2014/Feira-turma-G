@@ -189,8 +189,8 @@ footer {
     padding: 5px;
 }
 
-footer > p{
-    margin: 8px;
+footer p > button > a:hover {
+    color: var(--color3);
 }
 
 footer > p > button{
@@ -201,48 +201,23 @@ footer > p > button{
     text-align: center;
 }
 
-footer > p > button > a {
+footer {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--color5);
     color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: .5s;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
 }
 
-footer > button > a:hover {
+footer > p > button > a:hover {
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
     color: var(--color3);
 }
-
-footer > p > button > a:active {
-    color:white;
-    text-decoration:dotted;
-    border-radius:5px;
-    margin: 5px;
-    padding: 5px;
-    color: white;
-    background-color: var(--color5);
-}
-
-footer > p > button > a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: .5s;
-}
-
-footer > p > button > a:hover {
-    color: var(--color3);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer > p > button > a:active {
-    color:white;
-    text-decoration:dotted;
-    border-radius:5px;
-    padding: 10px;
-    color: white;
-    background-color:var(--color5);
+footer > button > p > a:active{
+    text-decoration: dotted;
 }
