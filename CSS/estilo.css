@@ -127,6 +127,10 @@ main p {
     line-height: 2em;
 }
 
+main > p > abbr{
+    text-decoration: wavy;
+}
+
 main strong {
     color: var(--cor4);
     font-weight: bolder;
