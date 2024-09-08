@@ -246,7 +246,7 @@ footer > p > button > a {
 }
 
 footer > p > button > a:hover {
-    color: var(--color3);
+    color: var(--cor3);
     text-decoration: none;
     font-weight: bold;
 }
@@ -257,5 +257,5 @@ footer > p > button > a:active {
     border-radius:5px;
     padding: 10px;
     color: white;
-    background-color:var(--color5);
+    background-color:var(--cor5);
 }
