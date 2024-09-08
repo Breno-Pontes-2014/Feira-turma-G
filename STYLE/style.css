@@ -101,7 +101,7 @@ main {
 }
 
 main h1 {
-    color: var(--cor5);
+    color: var(--color5);
     font-family: var(--fonte-fair);
     font-weight: normal;
     font-size: 1.8em;
