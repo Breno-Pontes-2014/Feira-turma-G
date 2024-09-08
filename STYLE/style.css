@@ -168,7 +168,8 @@ aside > h3 {
 }
 
 aside > ul {
-    list-style-type: disc;
+    font-weight: bolder;
+    list-style-type: disclosure-closed;
     list-style-position: inside;
     columns: 2;
 }
